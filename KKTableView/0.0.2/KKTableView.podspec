@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT (example)"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "caiming" => "davis_cai@163.com" }
-  s.platform     = :ios
+  s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/cmadc/KKTableView.git", :tag => s.version }
   s.source_files  = "Classes", "Pod/*.{h,m}"
   s.requires_arc = true
