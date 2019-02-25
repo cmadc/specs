@@ -31,12 +31,13 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
   s.source_files = 'CommonComponents/Classes/**/*'
   
-  
+  s.dependency 'Masonry'
   s.dependency 'SDWebImage', '~> 4.3.3'
   s.dependency 'SDWebImage/GIF'
   s.dependency 'FLAnimatedImage'
   s.dependency 'DACircularProgress'
   s.frameworks = 'UIKit'
+
 
  
   # s.resource_bundles = {
