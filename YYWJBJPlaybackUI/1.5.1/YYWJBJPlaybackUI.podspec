@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
   s.module_name = "BJPlaybackUI"
+
   s.homepage         = 'https://github.com/oushizishu/BJPlaybackUI'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'oushizishu' => 'xinyapeng@baijiahulian.com' }
